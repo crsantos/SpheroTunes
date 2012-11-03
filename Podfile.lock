@@ -1,0 +1,14 @@
+
+PODS:
+- AFNetworking (1.0.1)
+- Novocaine (0.0.1)
+
+DEPENDENCIES:
+- AFNetworking
+- Novocaine
+
+SPEC CHECKSUMS:
+  AFNetworking: 4c11f857c9a18d65f4257c90a1e74ac49f0ac422
+  Novocaine: 8c88e2e1441f65b529ebc1d2a5c1e7e5635cd9fd
+
+COCOAPODS: 0.15.1

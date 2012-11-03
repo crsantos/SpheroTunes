@@ -30,6 +30,7 @@
 		8D081C4A1645407000B16D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C161645406E00B16D0A /* Foundation.framework */; };
 		8D081C521645407000B16D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C501645407000B16D0A /* InfoPlist.strings */; };
 		8D081C551645407000B16D0A /* SpheroTunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D081C541645407000B16D0A /* SpheroTunesTests.m */; };
+		CDF0A9198F4B40CDAF652569 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A06A25545F0C46819F5D9B96 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		114F660F415445FFBCFC19B2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		8D081C101645406E00B16D0A /* SpheroTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D081C141645406E00B16D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8D081C161645406E00B16D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8D081C181645406E00B16D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8D081C1A1645406E00B16D0A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		8D081C1C1645406E00B16D0A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		8D081C141645406E00B16D0A /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D081C161645406E00B16D0A /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D081C181645406E00B16D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D081C1A1645406E00B16D0A /* CoreMotion.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8D081C1C1645406E00B16D0A /* GameKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		8D081C221645406E00B16D0A /* SpheroTunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroTunes-Info.plist"; sourceTree = "<group>"; };
 		8D081C241645406E00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D081C261645406E00B16D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,8 +63,8 @@
 		8D081C301645406F00B16D0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D081C331645406F00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8D081C361645406F00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8D081C381645406F00B16D0A /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Frameworks/RobotKit.framework; sourceTree = "<group>"; };
-		8D081C3A1645407000B16D0A /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = Frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		8D081C381645406F00B16D0A /* RobotKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		8D081C3A1645407000B16D0A /* RobotUIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = Frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
 		8D081C3C1645407000B16D0A /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
 		8D081C3E1645407000B16D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8D081C3F1645407000B16D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		8D081C511645407000B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D081C531645407000B16D0A /* SpheroTunesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpheroTunesTests.h; sourceTree = "<group>"; };
 		8D081C541645407000B16D0A /* SpheroTunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroTunesTests.m; sourceTree = "<group>"; };
+		A06A25545F0C46819F5D9B96 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 				8D081C1F1645406E00B16D0A /* ExternalAccessory.framework in Frameworks */,
 				8D081C391645406F00B16D0A /* RobotKit.framework in Frameworks */,
 				8D081C3B1645407000B16D0A /* RobotUIKit.framework in Frameworks */,
+				CDF0A9198F4B40CDAF652569 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +114,7 @@
 				8D081C4D1645407000B16D0A /* SpheroTunesTests */,
 				8D081C131645406E00B16D0A /* Frameworks */,
 				8D081C111645406E00B16D0A /* Products */,
+				114F660F415445FFBCFC19B2 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +137,7 @@
 				8D081C1C1645406E00B16D0A /* GameKit.framework */,
 				8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */,
 				8D081C471645407000B16D0A /* SenTestingKit.framework */,
+				A06A25545F0C46819F5D9B96 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				8D081C0C1645406E00B16D0A /* Sources */,
 				8D081C0D1645406E00B16D0A /* Frameworks */,
 				8D081C0E1645406E00B16D0A /* Resources */,
+				F83DE28D2AC945A5B8285D25 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +298,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		F83DE28D2AC945A5B8285D25 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -380,7 +401,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -402,7 +423,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -412,7 +433,9 @@
 		};
 		8D081C591645407000B16D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114F660F415445FFBCFC19B2 /* Pods.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Ricardo Santos (5ZV7NTDZMT)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SpheroTunes/Frameworks\"",
@@ -420,19 +443,23 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
 				INFOPLIST_FILE = "SpheroTunes/SpheroTunes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
 					"-lsqlite3.0",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "26D51AC0-E6FA-4135-8C8F-1EB1226488B0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		8D081C5A1645407000B16D0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114F660F415445FFBCFC19B2 /* Pods.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -441,11 +468,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
 				INFOPLIST_FILE = "SpheroTunes/SpheroTunes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
 					"-lsqlite3.0",
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -505,6 +534,7 @@
 				8D081C5A1645407000B16D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D081C5B1645407000B16D0A /* Build configuration list for PBXNativeTarget "SpheroTunesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +543,7 @@
 				8D081C5D1645407000B16D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

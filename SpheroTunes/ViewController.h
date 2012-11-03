@@ -14,6 +14,7 @@
     BOOL robotOnline;
     RUICalibrateGestureHandler *calibrateHandler;
 }
+@property (weak, nonatomic) IBOutlet UIButton *connectBtn;
 
 -(void)setupRobotConnection;
 -(void)handleRobotOnline;

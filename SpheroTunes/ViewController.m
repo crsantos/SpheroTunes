@@ -14,6 +14,16 @@
 
 @implementation ViewController
 
+#pragma mark - Actions
+
+- (IBAction)connectButtonClicked:(id)sender {
+ 
+    [self setupRobotConnection];
+}
+
+
+#pragma mark - Views
+
 -(void)viewDidLoad {
     [super viewDidLoad];
     
@@ -59,7 +69,7 @@
     [self performSelector:@selector(toggleLED) withObject:nil afterDelay:0.5];
 }
 
--(void)setupRobotConnection {
+-(void) setupRobotConnection {
     /*Try to connect to the robot*/
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(handleRobotOnline) name:RKDeviceConnectionOnlineNotification object:nil];
     if ([[RKRobotProvider sharedRobotProvider] isRobotUnderControl]) {
@@ -67,4 +77,8 @@
     }
 }
 
+- (void)viewDidUnload {
+    [self setConnectBtn:nil];
+    [super viewDidUnload];
+}
 @end
