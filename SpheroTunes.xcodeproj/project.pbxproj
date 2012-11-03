@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D081C151645406E00B16D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C141645406E00B16D0A /* UIKit.framework */; };
+		8D081C171645406E00B16D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C161645406E00B16D0A /* Foundation.framework */; };
+		8D081C191645406E00B16D0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C181645406E00B16D0A /* CoreGraphics.framework */; };
+		8D081C1B1645406E00B16D0A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C1A1645406E00B16D0A /* CoreMotion.framework */; };
+		8D081C1D1645406E00B16D0A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C1C1645406E00B16D0A /* GameKit.framework */; };
+		8D081C1F1645406E00B16D0A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */; };
+		8D081C251645406E00B16D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C231645406E00B16D0A /* InfoPlist.strings */; };
+		8D081C271645406E00B16D0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D081C261645406E00B16D0A /* main.m */; };
+		8D081C2B1645406F00B16D0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D081C2A1645406F00B16D0A /* AppDelegate.m */; };
+		8D081C2D1645406F00B16D0A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C2C1645406F00B16D0A /* Default.png */; };
+		8D081C2F1645406F00B16D0A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C2E1645406F00B16D0A /* Default@2x.png */; };
+		8D081C311645406F00B16D0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C301645406F00B16D0A /* Default-568h@2x.png */; };
+		8D081C341645406F00B16D0A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C321645406F00B16D0A /* MainStoryboard_iPhone.storyboard */; };
+		8D081C371645406F00B16D0A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C351645406F00B16D0A /* MainStoryboard_iPad.storyboard */; };
+		8D081C391645406F00B16D0A /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C381645406F00B16D0A /* RobotKit.framework */; };
+		8D081C3B1645407000B16D0A /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C3A1645407000B16D0A /* RobotUIKit.framework */; };
+		8D081C3D1645407000B16D0A /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C3C1645407000B16D0A /* RobotUIKit.bundle */; };
+		8D081C401645407000B16D0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D081C3F1645407000B16D0A /* ViewController.m */; };
+		8D081C481645407000B16D0A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C471645407000B16D0A /* SenTestingKit.framework */; };
+		8D081C491645407000B16D0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C141645406E00B16D0A /* UIKit.framework */; };
+		8D081C4A1645407000B16D0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D081C161645406E00B16D0A /* Foundation.framework */; };
+		8D081C521645407000B16D0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D081C501645407000B16D0A /* InfoPlist.strings */; };
+		8D081C551645407000B16D0A /* SpheroTunesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D081C541645407000B16D0A /* SpheroTunesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D081C4B1645407000B16D0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D081C071645406E00B16D0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D081C0F1645406E00B16D0A;
+			remoteInfo = SpheroTunes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D081C101645406E00B16D0A /* SpheroTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D081C141645406E00B16D0A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D081C161645406E00B16D0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D081C181645406E00B16D0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D081C1A1645406E00B16D0A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		8D081C1C1645406E00B16D0A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		8D081C221645406E00B16D0A /* SpheroTunes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroTunes-Info.plist"; sourceTree = "<group>"; };
+		8D081C241645406E00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D081C261645406E00B16D0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D081C281645406E00B16D0A /* SpheroTunes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpheroTunes-Prefix.pch"; sourceTree = "<group>"; };
+		8D081C291645406E00B16D0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D081C2A1645406F00B16D0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D081C2C1645406F00B16D0A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D081C2E1645406F00B16D0A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D081C301645406F00B16D0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D081C331645406F00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8D081C361645406F00B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8D081C381645406F00B16D0A /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = Frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		8D081C3A1645407000B16D0A /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = Frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		8D081C3C1645407000B16D0A /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RobotUIKit.bundle; sourceTree = "<group>"; };
+		8D081C3E1645407000B16D0A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D081C3F1645407000B16D0A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D081C461645407000B16D0A /* SpheroTunesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroTunesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D081C471645407000B16D0A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D081C4F1645407000B16D0A /* SpheroTunesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpheroTunesTests-Info.plist"; sourceTree = "<group>"; };
+		8D081C511645407000B16D0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D081C531645407000B16D0A /* SpheroTunesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpheroTunesTests.h; sourceTree = "<group>"; };
+		8D081C541645407000B16D0A /* SpheroTunesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroTunesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D081C0D1645406E00B16D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C151645406E00B16D0A /* UIKit.framework in Frameworks */,
+				8D081C171645406E00B16D0A /* Foundation.framework in Frameworks */,
+				8D081C191645406E00B16D0A /* CoreGraphics.framework in Frameworks */,
+				8D081C1B1645406E00B16D0A /* CoreMotion.framework in Frameworks */,
+				8D081C1D1645406E00B16D0A /* GameKit.framework in Frameworks */,
+				8D081C1F1645406E00B16D0A /* ExternalAccessory.framework in Frameworks */,
+				8D081C391645406F00B16D0A /* RobotKit.framework in Frameworks */,
+				8D081C3B1645407000B16D0A /* RobotUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D081C421645407000B16D0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C481645407000B16D0A /* SenTestingKit.framework in Frameworks */,
+				8D081C491645407000B16D0A /* UIKit.framework in Frameworks */,
+				8D081C4A1645407000B16D0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D081C051645406E00B16D0A = {
+			isa = PBXGroup;
+			children = (
+				8D081C201645406E00B16D0A /* SpheroTunes */,
+				8D081C4D1645407000B16D0A /* SpheroTunesTests */,
+				8D081C131645406E00B16D0A /* Frameworks */,
+				8D081C111645406E00B16D0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D081C111645406E00B16D0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C101645406E00B16D0A /* SpheroTunes.app */,
+				8D081C461645407000B16D0A /* SpheroTunesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D081C131645406E00B16D0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C141645406E00B16D0A /* UIKit.framework */,
+				8D081C161645406E00B16D0A /* Foundation.framework */,
+				8D081C181645406E00B16D0A /* CoreGraphics.framework */,
+				8D081C1A1645406E00B16D0A /* CoreMotion.framework */,
+				8D081C1C1645406E00B16D0A /* GameKit.framework */,
+				8D081C1E1645406E00B16D0A /* ExternalAccessory.framework */,
+				8D081C471645407000B16D0A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D081C201645406E00B16D0A /* SpheroTunes */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C291645406E00B16D0A /* AppDelegate.h */,
+				8D081C2A1645406F00B16D0A /* AppDelegate.m */,
+				8D081C321645406F00B16D0A /* MainStoryboard_iPhone.storyboard */,
+				8D081C351645406F00B16D0A /* MainStoryboard_iPad.storyboard */,
+				8D081C381645406F00B16D0A /* RobotKit.framework */,
+				8D081C3A1645407000B16D0A /* RobotUIKit.framework */,
+				8D081C3C1645407000B16D0A /* RobotUIKit.bundle */,
+				8D081C3E1645407000B16D0A /* ViewController.h */,
+				8D081C3F1645407000B16D0A /* ViewController.m */,
+				8D081C211645406E00B16D0A /* Supporting Files */,
+			);
+			path = SpheroTunes;
+			sourceTree = "<group>";
+		};
+		8D081C211645406E00B16D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C221645406E00B16D0A /* SpheroTunes-Info.plist */,
+				8D081C231645406E00B16D0A /* InfoPlist.strings */,
+				8D081C261645406E00B16D0A /* main.m */,
+				8D081C281645406E00B16D0A /* SpheroTunes-Prefix.pch */,
+				8D081C2C1645406F00B16D0A /* Default.png */,
+				8D081C2E1645406F00B16D0A /* Default@2x.png */,
+				8D081C301645406F00B16D0A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D081C4D1645407000B16D0A /* SpheroTunesTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C531645407000B16D0A /* SpheroTunesTests.h */,
+				8D081C541645407000B16D0A /* SpheroTunesTests.m */,
+				8D081C4E1645407000B16D0A /* Supporting Files */,
+			);
+			path = SpheroTunesTests;
+			sourceTree = "<group>";
+		};
+		8D081C4E1645407000B16D0A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D081C4F1645407000B16D0A /* SpheroTunesTests-Info.plist */,
+				8D081C501645407000B16D0A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D081C0F1645406E00B16D0A /* SpheroTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D081C581645407000B16D0A /* Build configuration list for PBXNativeTarget "SpheroTunes" */;
+			buildPhases = (
+				8D081C0C1645406E00B16D0A /* Sources */,
+				8D081C0D1645406E00B16D0A /* Frameworks */,
+				8D081C0E1645406E00B16D0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroTunes;
+			productName = SpheroTunes;
+			productReference = 8D081C101645406E00B16D0A /* SpheroTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D081C451645407000B16D0A /* SpheroTunesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D081C5B1645407000B16D0A /* Build configuration list for PBXNativeTarget "SpheroTunesTests" */;
+			buildPhases = (
+				8D081C411645407000B16D0A /* Sources */,
+				8D081C421645407000B16D0A /* Frameworks */,
+				8D081C431645407000B16D0A /* Resources */,
+				8D081C441645407000B16D0A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D081C4C1645407000B16D0A /* PBXTargetDependency */,
+			);
+			name = SpheroTunesTests;
+			productName = SpheroTunesTests;
+			productReference = 8D081C461645407000B16D0A /* SpheroTunesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D081C071645406E00B16D0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Carlos Ricardo Santos";
+			};
+			buildConfigurationList = 8D081C0A1645406E00B16D0A /* Build configuration list for PBXProject "SpheroTunes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D081C051645406E00B16D0A;
+			productRefGroup = 8D081C111645406E00B16D0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D081C0F1645406E00B16D0A /* SpheroTunes */,
+				8D081C451645407000B16D0A /* SpheroTunesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D081C0E1645406E00B16D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C251645406E00B16D0A /* InfoPlist.strings in Resources */,
+				8D081C2D1645406F00B16D0A /* Default.png in Resources */,
+				8D081C2F1645406F00B16D0A /* Default@2x.png in Resources */,
+				8D081C311645406F00B16D0A /* Default-568h@2x.png in Resources */,
+				8D081C341645406F00B16D0A /* MainStoryboard_iPhone.storyboard in Resources */,
+				8D081C371645406F00B16D0A /* MainStoryboard_iPad.storyboard in Resources */,
+				8D081C3D1645407000B16D0A /* RobotUIKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D081C431645407000B16D0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C521645407000B16D0A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D081C441645407000B16D0A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D081C0C1645406E00B16D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C271645406E00B16D0A /* main.m in Sources */,
+				8D081C2B1645406F00B16D0A /* AppDelegate.m in Sources */,
+				8D081C401645407000B16D0A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D081C411645407000B16D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D081C551645407000B16D0A /* SpheroTunesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D081C4C1645407000B16D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D081C0F1645406E00B16D0A /* SpheroTunes */;
+			targetProxy = 8D081C4B1645407000B16D0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D081C231645406E00B16D0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D081C241645406E00B16D0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D081C321645406F00B16D0A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D081C331645406F00B16D0A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8D081C351645406F00B16D0A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D081C361645406F00B16D0A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8D081C501645407000B16D0A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D081C511645407000B16D0A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D081C561645407000B16D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D081C571645407000B16D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D081C591645407000B16D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpheroTunes/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
+				INFOPLIST_FILE = "SpheroTunes/SpheroTunes-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D081C5A1645407000B16D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SpheroTunes/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
+				INFOPLIST_FILE = "SpheroTunes/SpheroTunes-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+					"-lsqlite3.0",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D081C5C1645407000B16D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpheroTunes.app/SpheroTunes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
+				INFOPLIST_FILE = "SpheroTunesTests/SpheroTunesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8D081C5D1645407000B16D0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SpheroTunes.app/SpheroTunes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SpheroTunes/SpheroTunes-Prefix.pch";
+				INFOPLIST_FILE = "SpheroTunesTests/SpheroTunesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D081C0A1645406E00B16D0A /* Build configuration list for PBXProject "SpheroTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D081C561645407000B16D0A /* Debug */,
+				8D081C571645407000B16D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D081C581645407000B16D0A /* Build configuration list for PBXNativeTarget "SpheroTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D081C591645407000B16D0A /* Debug */,
+				8D081C5A1645407000B16D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D081C5B1645407000B16D0A /* Build configuration list for PBXNativeTarget "SpheroTunesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D081C5C1645407000B16D0A /* Debug */,
+				8D081C5D1645407000B16D0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D081C071645406E00B16D0A /* Project object */;
+}
