@@ -27,12 +27,37 @@
                                     <action selector="connectButtonClicked:" destination="2" eventType="touchUpInside" id="awo-Nm-8bo"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="tlg-3d-NAT">
+                                <rect key="frame" x="69" y="353" width="79" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="ledSwitchChanged:" destination="2" eventType="valueChanged" id="FVh-DA-b4H"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="LED" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fsh-QB-wW7">
+                                <rect key="frame" x="27" y="356" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZDN-50-sDm">
+                                <rect key="frame" x="0.0" y="416" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Sleep" id="UUi-89-K43">
+                                        <connections>
+                                            <action selector="sleepPressed:" destination="2" id="c4Q-Gr-Sxs"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="connect" destination="gLX-qx-ea9" id="2K9-WX-e2d"/>
                         <outlet property="connectBtn" destination="gLX-qx-ea9" id="j73-me-uSb"/>
+                        <outlet property="ledSwitch" destination="tlg-3d-NAT" id="feR-VM-A1z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -44,7 +69,10 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="connectButtonClicked:"/>
+                <relationship kind="action" name="ledSwitchChanged:"/>
+                <relationship kind="action" name="sleepPressed:"/>
                 <relationship kind="outlet" name="connectBtn" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ledSwitch" candidateClass="UISwitch"/>
             </relationships>
         </class>
     </classes>

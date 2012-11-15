@@ -15,6 +15,7 @@
     RUICalibrateGestureHandler *calibrateHandler;
 }
 @property (weak, nonatomic) IBOutlet UIButton *connectBtn;
+@property (weak, nonatomic) IBOutlet UISwitch *ledSwitch;
 
 -(void)setupRobotConnection;
 -(void)handleRobotOnline;
